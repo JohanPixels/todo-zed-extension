@@ -1,0 +1,7 @@
+id = "todo-list-extension"
+name = "Todo List"
+version = "0.0.1"
+schema_version = 1
+authors = ["Johan Muñoz <johanmunoz319@gmail.com>"]
+description = "A todo list to help you manage your tasks within Zed."
+repository = "https://github.com/JohanPixels/todo-zed-extension"

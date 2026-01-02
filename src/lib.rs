@@ -5,7 +5,9 @@ struct TodoListExtension {
 }
 
 impl zed::Extension for TodoListExtension {
-    // ...
+    fn new() -> Self {
+        Self {}
+    }
 }
 
 zed::register_extension!(TodoListExtension);
